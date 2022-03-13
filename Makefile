@@ -41,8 +41,7 @@ define Package/redsocks2/conffiles
 endef
 
 define Build/Compile
-	$(call Build/Compile/Default,DISABLE_SHADOWSOCKS=true,ENABLE_HTTPS_PROXY=true)
-	
+	$(call Build/Compile/Default,DISABLE_SHADOWSOCKS=true,ENABLE_HTTPS_PROXY=true)	
 endef
 :
 define Package/redsocks2/install
